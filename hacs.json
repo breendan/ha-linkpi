@@ -1,0 +1,8 @@
+{
+  "name": "LinkPi HDMI Encoder",
+  "render_readme": true,
+  "country": ["global"],
+  "domains": ["sensor"],
+  "homeassistant": "2024.1.0",
+  "iot_class": "Local Polling"
+}
