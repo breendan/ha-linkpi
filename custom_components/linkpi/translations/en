@@ -1,0 +1,52 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "LinkPi HDMI Encoder",
+        "description": "Enter the connection details for your LinkPi device.",
+        "data": {
+          "host": "Host",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect. Verify host and credentials.",
+      "unknown": "Unexpected error occurred."
+    },
+    "abort": {
+      "single_instance_allowed": "This integration is already configured."
+    },
+    "options": {
+      "step": {
+        "init": {
+          "title": "LinkPi Options",
+            "description": "Adjust the polling interval (seconds).",
+            "data": {
+              "scan_interval": "Scan interval (seconds)"
+            }
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "linkpi_encoder_cpu_usage": {
+        "name": "LinkPi Encoder CPU Usage"
+      },
+      "linkpi_encoder_memory_usage": {
+        "name": "LinkPi Encoder Memory Usage"
+      },
+      "linkpi_encoder_core_temperature": {
+        "name": "LinkPi Encoder Core Temperature"
+      },
+      "linkpi_encoder_network_tx_rate": {
+        "name": "LinkPi Encoder Network TX Rate"
+      },
+      "linkpi_encoder_network_rx_rate": {
+        "name": "LinkPi Encoder Network RX Rate"
+      }
+    }
+  }
+}
