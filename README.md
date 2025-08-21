@@ -1,5 +1,11 @@
 # LinkPi HDMI Encoder – Home Assistant Custom Integration
 
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-blue.svg)](https://hacs.xyz/)
+[![Release](https://img.shields.io/github/v/release/breendan/ha-linkpi?sort=semver)](https://github.com/breendan/ha-linkpi/releases)
+[![Downloads](https://img.shields.io/github/downloads/breendan/ha-linkpi/total.svg)](https://github.com/breendan/ha-linkpi/releases)
+[![Last Commit](https://img.shields.io/github/last-commit/breendan/ha-linkpi.svg)](https://github.com/breendan/ha-linkpi/commits)
+[![License](https://img.shields.io/github/license/breendan/ha-linkpi.svg)](LICENSE)
+
 Monitor basic system, network, and video input state from a LinkPi HDMI Encoder device inside Home Assistant.
 
 ## Features
