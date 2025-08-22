@@ -2,7 +2,7 @@
   "domain": "linkpi",
   "name": "LinkPi HDMI Encoder",
   "version": "1.0.0",
-  "requirements": ["aiohttp"],
+  "requirements": [],
   "documentation": "https://github.com/breendan/ha-linkpi",
   "issue_tracker": "https://github.com/breendan/ha-linkpi/issues",
   "codeowners": ["@breendan"],
