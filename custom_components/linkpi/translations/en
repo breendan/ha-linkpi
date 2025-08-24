@@ -17,15 +17,15 @@
     },
     "abort": {
       "single_instance_allowed": "This integration is already configured."
-    },
-    "options": {
-      "step": {
-        "init": {
-          "title": "LinkPi Options",
-            "description": "Adjust the polling interval (seconds).",
-            "data": {
-              "scan_interval": "Scan interval (seconds)"
-            }
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "LinkPi Options",
+        "description": "Adjust the polling interval (seconds).",
+        "data": {
+          "scan_interval": "Scan interval (seconds)"
         }
       }
     }
