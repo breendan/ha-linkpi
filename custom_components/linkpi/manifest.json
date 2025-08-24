@@ -8,6 +8,5 @@
   "issue_tracker": "https://github.com/breendan/ha-linkpi/issues",
   "loggers": ["custom_components.linkpi"],
   "requirements": [],
-  "supported_platforms": ["sensor"],
   "version": "1.0.0"
 }
