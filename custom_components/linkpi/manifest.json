@@ -1,13 +1,13 @@
 {
   "domain": "linkpi",
   "name": "LinkPi HDMI Encoder",
-  "version": "1.0.0",
-  "requirements": [],
-  "documentation": "https://github.com/breendan/ha-linkpi",
-  "issue_tracker": "https://github.com/breendan/ha-linkpi/issues",
   "codeowners": ["@breendan"],
   "config_flow": true,
+  "documentation": "https://github.com/breendan/ha-linkpi",
   "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/breendan/ha-linkpi/issues",
+  "loggers": ["custom_components.linkpi"],
+  "requirements": [],
   "supported_platforms": ["sensor"],
-  "loggers": ["custom_components.linkpi"]
+  "version": "1.0.0"
 }
